@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+
+    <script id="MathJax-script" async src="mathJax/mj-tmp/es5/tex-chtml.js"></script>
+
+    <!--full url scriptiin /Users/rikukuisma/Desktop/math-extension/-->
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+</head>
+<body>
+    
+
+<div id="big-div">
+
+    <input type="text" id="input">
+    <button type="button" id="button1">Vastaa</button>
+
+    <div id="result-container">
+    <h3 id="result"></h3>
+    </div>
+
+
+    <br>
+    <br>
+
+
+
+
+    <div id="loading-animation" style="display: none;">
+ 
+        <div class="container"></div>
+
+        <style>
+          .container {
+            --uib-size: 35px;
+            --uib-color: black;
+            --uib-speed: 1.5s;
+            --uib-dot-size: calc(var(--uib-size) * 0.4);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: var(--uib-dot-size);
+            width: var(--uib-size);
+          }
+        
+          .container::before,
+          .container::after {
+            content: '';
+            position: absolute;
+            height: var(--uib-dot-size);
+            width: var(--uib-dot-size);
+            border-radius: 50%;
+            background-color: var(--uib-color);
+            flex-shrink: 0;
+            transition: background-color 0.3s ease;
+          }
+        
+          .container::before {
+            animation: orbit var(--uib-speed) linear infinite;
+          }
+        
+          .container::after {
+            animation: orbit var(--uib-speed) linear calc(var(--uib-speed) / -2) infinite;
+          }
+        
+          @keyframes orbit {
+            0% {
+              transform: translateX(calc(var(--uib-size) * 0.25)) scale(0.73684);
+              opacity: 0.65;
+            }
+            5% {
+              transform: translateX(calc(var(--uib-size) * 0.235)) scale(0.684208);
+              opacity: 0.58;
+            }
+            10% {
+              transform: translateX(calc(var(--uib-size) * 0.182)) scale(0.631576);
+              opacity: 0.51;
+            }
+            15% {
+              transform: translateX(calc(var(--uib-size) * 0.129)) scale(0.578944);
+              opacity: 0.44;
+            }
+            20% {
+              transform: translateX(calc(var(--uib-size) * 0.076)) scale(0.526312);
+              opacity: 0.37;
+            }
+            25% {
+              transform: translateX(0%) scale(0.47368);
+              opacity: 0.3;
+            }
+            30% {
+              transform: translateX(calc(var(--uib-size) * -0.076)) scale(0.526312);
+              opacity: 0.37;
+            }
+            35% {
+              transform: translateX(calc(var(--uib-size) * -0.129)) scale(0.578944);
+              opacity: 0.44;
+            }
+            40% {
+              transform: translateX(calc(var(--uib-size) * -0.182)) scale(0.631576);
+              opacity: 0.51;
+            }
+            45% {
+              transform: translateX(calc(var(--uib-size) * -0.235)) scale(0.684208);
+              opacity: 0.58;
+            }
+            50% {
+              transform: translateX(calc(var(--uib-size) * -0.25)) scale(0.73684);
+              opacity: 0.65;
+            }
+            55% {
+              transform: translateX(calc(var(--uib-size) * -0.235)) scale(0.789472);
+              opacity: 0.72;
+            }
+            60% {
+              transform: translateX(calc(var(--uib-size) * -0.182)) scale(0.842104);
+              opacity: 0.79;
+            }
+            65% {
+              transform: translateX(calc(var(--uib-size) * -0.129)) scale(0.894736);
+              opacity: 0.86;
+            }
+            70% {
+              transform: translateX(calc(var(--uib-size) * -0.076)) scale(0.947368);
+              opacity: 0.93;
+            }
+            75% {
+              transform: translateX(0%) scale(1);
+              opacity: 1;
+            }
+            80% {
+              transform: translateX(calc(var(--uib-size) * 0.076)) scale(0.947368);
+              opacity: 0.93;
+            }
+            85% {
+              transform: translateX(calc(var(--uib-size) * 0.129)) scale(0.894736);
+              opacity: 0.86;
+            }
+            90% {
+              transform: translateX(calc(var(--uib-size) * 0.182)) scale(0.842104);
+              opacity: 0.79;
+            }
+            95% {
+              transform: translateX(calc(var(--uib-size) * 0.235)) scale(0.789472);
+              opacity: 0.72;
+            }
+            100% {
+              transform: translateX(calc(var(--uib-size) * 0.25)) scale(0.73684);
+              opacity: 0.65;
+            }
+          }
+        </style>
+        
+        
+
+      </div>
+
+      
+    </div>
+
+<!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
+<script src="bundle.js"></script> -->
+
+<script type="text/javascript">
+    MathJax = {
+        tex: {
+            inlineMath: [['\\(', '\\)'], ['$', '$']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+    };
+</script>
+
+
+<script src="bundle.js"></script>
+
+
+</body>
+</html>

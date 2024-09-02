@@ -1,0 +1,56 @@
+#loading-animation {
+ margin-left: 100px;
+}
+
+#button1 {
+    background: linear-gradient(90deg, #29648A, #25274D);
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+    color: #F2F2F2;
+	cursor: pointer;
+	outline: inherit;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 5px 5px  5px #116466;
+}
+
+
+
+#input {
+  background: azure;
+    color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 5px 5px  5px #116466;
+}
+
+body {
+    background-color: rgb(210, 210, 220);
+    width: 400px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+#big-div{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+
+
+#result-container {
+    margin-right: 20px;
+}

@@ -1,0 +1,41 @@
+Aloitetaan lausekkeen sieventäminen vaihe vaiheelta.
+
+Meillä on lauseke:
+
+$$
+\left(x^{\frac{1}{3}} + y^{\frac{1}{3}}\right) \cdot \left(x^{\frac{2}{3}} - x^{\frac{1}{3}} \cdot y^{\frac{1}{3}} + y^{\frac{2}{3}}\right)
+$$
+
+1. **Käytetään jakamista**: Huomataan, että toinen osa lausekkeesta on itse asiassa täydellinen neliö. Voimme kirjoittaa sen muodossa:
+
+$$
+x^{\frac{2}{3}} - x^{\frac{1}{3}} \cdot y^{\frac{1}{3}} + y^{\frac{2}{3}} = \left(x^{\frac{1}{3}} - y^{\frac{1}{3}}\right)^2
+$$
+
+2. **Korvataan tämä lausekkeessa**:
+
+$$
+\left(x^{\frac{1}{3}} + y^{\frac{1}{3}}\right) \cdot \left(x^{\frac{1}{3}} - y^{\frac{1}{3}}\right)^2
+$$
+
+3. **Käytetään kaavaa**: Nyt voimme käyttää kaavaa \( (a + b)(a - b) = a^2 - b^2 \):
+
+$$
+= \left(x^{\frac{1}{3}}\right)^2 - \left(y^{\frac{1}{3}}\right)^2
+$$
+
+4. **Lasketaan neliöt**:
+
+$$
+= x^{\frac{2}{3}} - y^{\frac{2}{3}}
+$$
+
+5. **Lopullinen tulos**:
+
+Lausekkeen sievennys on:
+
+$$
+x^{\frac{2}{3}} - y^{\frac{2}{3}}
+$$
+
+Tämä on lopullinen vastaus.
