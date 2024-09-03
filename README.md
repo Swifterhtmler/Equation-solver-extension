@@ -36,6 +36,7 @@ git clone https://github.com/Swifterhtmler/Rikhematic-equation-solver.git
 - Latex support and MathJax preview
 - Free download
 - modern coloscheme
+- Copy and Paste Latex
 
 
 
