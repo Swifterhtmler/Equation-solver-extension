@@ -37,6 +37,7 @@ git clone https://github.com/Swifterhtmler/Rikhematic-equation-solver.git
 - Free download
 - modern coloscheme
 - Copy and Paste Latex
+- Physics support
 
 
 
