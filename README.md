@@ -26,7 +26,7 @@ git clone https://github.com/Swifterhtmler/Rikhematic-equation-solver.git
 
 **Client:** HTML, CSS, browserify, JS, MathJax  
 
-**Server:** Node
+**Server:** Node.js
 
 
 
