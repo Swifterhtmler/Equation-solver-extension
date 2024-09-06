@@ -9,9 +9,9 @@ Rikhematic is an chrome extension allowing the use of leading llm api:s trough c
 
 ## Deployment
 
-To deploy this project downlaod the zip folder from releases tab (the current version is V1.0.0)
+To deploy this project downlaod the zip folder from releases tab (the current version is V1.0.0) you should also replace the api key in bundle.js file with your own.
 
-after the installation unzip the folder and add it to chrome extensions via [extension tab](chrome://extensions)
+after the installation unzip the folder and add it to chrome extensions via [extension tab](chrome://extensions) 
 
 or run
 
